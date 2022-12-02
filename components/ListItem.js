@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import Animated, { useAnimatedStyle, withTiming } from "react-native-reanimated";
 import { Image, Text } from "react-native";
-import { styles } from "../Styles/styles";
+import { styles } from "../styles/styles";
 
 const getFilename = (file) => {
   if (file[Object.keys(file)[0]]) {

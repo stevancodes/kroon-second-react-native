@@ -16,7 +16,7 @@ import Ripple from "react-native-material-ripple"; // Module for Ripple effect a
 
 import { useSharedValue } from "react-native-reanimated";
 import { ListItem } from "./components/ListItem";
-import { styles } from "./Styles/styles";
+import { styles } from "./styles/styles";
 
 const App = () => {
   const [data, setData] = useState([]);
